@@ -1,6 +1,5 @@
 'use client';
-import { motion, MotionValue, useScroll, useSpring, useTransform } from 'framer-motion';
-import Image from 'next/image';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react';
 
@@ -22,8 +21,6 @@ export const HeroParallax = ({
     //     offset: ['start start', 'end start']
     // });
 
-    const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
-
     // const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 600]), springConfig);
     // const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, -600]), springConfig);
     // const rotateX = useSpring(useTransform(scrollYProgress, [0, 0.2], [15, 0]), springConfig);
@@ -34,12 +31,11 @@ export const HeroParallax = ({
         <div
             id="projects"
             ref={ref}
-            className="container mx-auto relative flex flex-col self-auto overflow-hidden antialiased [perspective:1000px] [transform-style:preserve-3d]"
+            className="container relative mx-auto flex flex-col self-auto overflow-hidden antialiased [perspective:1000px] [transform-style:preserve-3d]"
         >
             <Header />
-            <motion.div
-            >
-                <motion.div className="mb-20 grid grid-cols-1 gap-6  py-10 md:grid-cols-2 lg:grid-cols-3">
+            <motion.div>
+                <motion.div className="mb-20 grid grid-cols-1 gap-6 py-10 md:grid-cols-2 lg:grid-cols-3">
                     {ImgRow.map((product) => (
                         <ProductCard product={product} key={product.title} />
                     ))}
@@ -61,22 +57,20 @@ export const HeroParallax = ({
 
 export const Header = () => {
     return (
-        <div className="relative left-0 top-0 mx-auto w-full max-w-5xl px-4 pt-20  py-10">
+        <div className="relative left-0 top-0 mx-auto w-full max-w-5xl px-4 py-10  pt-20">
             <h1 className="text-2xl font-bold dark:text-white md:text-7xl">Projects</h1>
         </div>
     );
 };
 
 export const ProductCard = ({
-    product,
-    
+    product
 }: {
     product: {
         title: string;
         link: string;
         thumbnail: string;
     };
-   
 }) => {
     return (
         <motion.div
@@ -84,16 +78,10 @@ export const ProductCard = ({
                 y: -20
             }}
             key={product.title}
-            className="group/product relative h-120 shrink-0 "
+            className="group/product h-120 relative shrink-0"
         >
-            <Link href={product.link} className="block group-hover/product:shadow-2xl ">
-                <img
-                    src={product.thumbnail}
-                    // height="400"
-                     // width="300"
-                    className="w-full h-auto mt-10"
-                    alt={product.title}
-                />
+            <Link href={product.link} className="block group-hover/product:shadow-2xl">
+                <img src={product.thumbnail} className="mt-10 h-auto w-full" alt={product.title} />
             </Link>
             <div className="pointer-events-none absolute inset-0 size-full bg-black opacity-0 group-hover/product:opacity-80"></div>
             <h2 className="absolute bottom-4 left-4 text-white opacity-0 group-hover/product:opacity-100">{product.title}</h2>

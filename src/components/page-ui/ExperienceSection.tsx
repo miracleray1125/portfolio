@@ -32,10 +32,16 @@ const experience = [
             <ul className="list-disc">
                 <li>Worked in a distributed Agile/Scrum team with 20 members.</li>
                 <li>Created scripts and microservices using Node.js to be used by core products.</li>
-                <li>Led the development and successful deployment of a scalable, high-traffic e-commerce platform using React and Next.js, efficiently integrating AWS services to seamlessly handle over 50,000 active users monthly.</li>
+                <li>
+                    Led the development and successful deployment of a scalable, high-traffic e-commerce platform using React and Next.js, efficiently
+                    integrating AWS services to seamlessly handle over 50,000 active users monthly.
+                </li>
                 <li>Integrated Stripe API for mobile application payment system.</li>
                 <li>Set up a new architecture and moved 100% of the codebase to clear the technical debt.</li>
-                <li>Developed unit tests using Jest and React testing library for React components and integration tests using Cypress to test the functionality's end-to-end (E2E) flow.</li>
+                <li>
+                    Developed unit tests using Jest and React testing library for React components and integration tests using Cypress to test the
+                    functionality&apos;s end-to-end (E2E) flow.
+                </li>
                 <li>Created the front-end elements using Headless UI for a chatbot application.</li>
                 <li>Implemented and deployed several algorithms (classification, clustering, NLP, and computer vision) for different use cases.</li>
             </ul>
@@ -63,11 +69,22 @@ const experience = [
         title: 'CivicPlus',
         description: (
             <ul className="list-disc">
-                <li>Managed complex application states and facilitated centralized data flow, ensuring consistent and efficient state management across the application, resulting in a 15% decrease in reported bugs.</li>
-                <li>Improved SEO and performance (~8.5%) of the official website and other public pages using Next.js, resulting in a 35% increase in conversion rate which is +30 seconds in average session duration.</li>
-                <li>Collaborated cross-functionally to ensure efficient communication channels between users and support staff, resulting in a 25% reduction in response times for customer inquiries.</li>
+                <li>
+                    Managed complex application states and facilitated centralized data flow, ensuring consistent and efficient state management
+                    across the application, resulting in a 15% decrease in reported bugs.
+                </li>
+                <li>
+                    Improved SEO and performance (~8.5%) of the official website and other public pages using Next.js, resulting in a 35% increase in
+                    conversion rate which is +30 seconds in average session duration.
+                </li>
+                <li>
+                    Collaborated cross-functionally to ensure efficient communication channels between users and support staff, resulting in a 25%
+                    reduction in response times for customer inquiries.
+                </li>
                 <li>Developed complex nested components for reuse, improving code maintainability and scalability by 22%.</li>
-                <li>Utilized TypeScript's strong typing system to enhance code reliability and maintainability, reducing runtime errors by 35%.</li>
+                <li>
+                    Utilized TypeScript&apos;s strong typing system to enhance code reliability and maintainability, reducing runtime errors by 35%.
+                </li>
                 <li>Initiated and led the integration of React Testing Library in the development process, reducing bugs at deployment by 40%.</li>
                 <li>Refactored the website to boost SEO performance, ensuring better discoverability and increased organic traffic.</li>
             </ul>
@@ -78,12 +95,30 @@ const experience = [
         title: 'SevOne',
         description: (
             <ul className="list-disc">
-                <li>Developed web components for a life science platform using HTML5, CSS3, Bootstrap, JavaScript, and jQuery, contributing to a 20% increase in user engagement.</li>
-                <li>Collaborated with designers and backend developers to implement user interfaces for web applications, leading to the successful deployment of 6 new features.</li>
-                <li>Responsible for creating efficient designs and developing user interaction screens using HTML5, CSS3, FLEXBOX, JavaScript, jQuery, and JSON, resulting in a 15% improvement in user satisfaction.</li>
-                <li>Worked on UI/UX design implementations using Figma and React, ensuring high fidelity to design prototypes and improved user experience.</li>
-                <li>Implemented video popups and playlists in web pages using HTML5 features, enhancing the user experience and increasing video engagement by 18%.</li>
-                <li>Created multiple reusable components and services using Angular 13 built-in and custom directives, reducing development time by 30% on subsequent projects.</li>
+                <li>
+                    Developed web components for a life science platform using HTML5, CSS3, Bootstrap, JavaScript, and jQuery, contributing to a 20%
+                    increase in user engagement.
+                </li>
+                <li>
+                    Collaborated with designers and backend developers to implement user interfaces for web applications, leading to the successful
+                    deployment of 6 new features.
+                </li>
+                <li>
+                    Responsible for creating efficient designs and developing user interaction screens using HTML5, CSS3, FLEXBOX, JavaScript, jQuery,
+                    and JSON, resulting in a 15% improvement in user satisfaction.
+                </li>
+                <li>
+                    Worked on UI/UX design implementations using Figma and React, ensuring high fidelity to design prototypes and improved user
+                    experience.
+                </li>
+                <li>
+                    Implemented video popups and playlists in web pages using HTML5 features, enhancing the user experience and increasing video
+                    engagement by 18%.
+                </li>
+                <li>
+                    Created multiple reusable components and services using Angular 13 built-in and custom directives, reducing development time by
+                    30% on subsequent projects.
+                </li>
             </ul>
         ),
         badge: 'Junior Frontend Developer/Jun 2020 - May 2022'
@@ -92,7 +127,10 @@ const experience = [
         title: 'Athennian',
         description: (
             <ul className="list-disc">
-                <li>Contributed to building an education platform using Laravel and JavaScript, featuring user registration, forums, and progress tracking.</li>
+                <li>
+                    Contributed to building an education platform using Laravel and JavaScript, featuring user registration, forums, and progress
+                    tracking.
+                </li>
                 <li>Fixed UI bugs and optimized CSS for improved cross-browser compatibility and responsiveness.</li>
                 <li>Integrated REST APIs for user authentication and data retrieval.</li>
                 <li>Assisted in creating reusable UI components to streamline development.</li>

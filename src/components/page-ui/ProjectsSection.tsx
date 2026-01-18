@@ -37,6 +37,5 @@ const products = [
         title: 'Global Boost',
         link: 'https://globalboo.st',
         thumbnail: '/projects/Global Boost.png'
-    },
-
+    }
 ];

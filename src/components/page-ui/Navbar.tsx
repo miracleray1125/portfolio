@@ -55,39 +55,59 @@ function NavbarComponent({ className }: { className?: string }) {
 
             {/* Desktop Full-Width Navbar */}
             <nav className={cn('fixed inset-x-0 z-50 w-full bg-background/95 backdrop-blur-sm border-b border-border hidden md:block', className)}>
-                <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+                <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
                     {/* Navigation Links */}
                     <div className="flex items-center gap-8">
-                        <Link href="#landing-page" className="text-sm hover:text-primary transition-colors">
+                        <Link href="#landing-page" className="text-sm transition-colors hover:text-primary">
                             Home
                         </Link>
-                        <Link href="#experience" className="text-sm hover:text-primary transition-colors">
+                        <Link href="#experience" className="text-sm transition-colors hover:text-primary">
                             Experience
                         </Link>
-                        <Link href="#skills" className="text-sm hover:text-primary transition-colors">
+                        <Link href="#skills" className="text-sm transition-colors hover:text-primary">
                             Skills
                         </Link>
-                        <Link href="#projects" className="text-sm hover:text-primary transition-colors">
+                        <Link href="#projects" className="text-sm transition-colors hover:text-primary">
                             Projects
                         </Link>
-                        <Link href="#contact-me" className="text-sm hover:text-primary transition-colors">
+                        <Link href="#contact-me" className="text-sm transition-colors hover:text-primary">
                             Contact Me
                         </Link>
                     </div>
 
                     {/* Social Links */}
                     <div className="flex items-center gap-4">
-                        <Link href="https://github.com/spojskic" rel="noopener noreferrer" target="_blank" className="hover:text-primary transition-colors">
-                            <GitHubLogoIcon className="w-5 h-5" />
+                        <Link
+                            href="https://github.com/spojskic"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="transition-colors hover:text-primary"
+                        >
+                            <GitHubLogoIcon className="size-5" />
                         </Link>
-                        <Link href="https://www.linkedin.com/in/mrpojskic/" rel="noopener noreferrer" target="_blank" className="hover:text-primary transition-colors">
-                            <LinkedInLogoIcon className="w-5 h-5" />
+                        <Link
+                            href="https://www.linkedin.com/in/mrpojskic/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="transition-colors hover:text-primary"
+                        >
+                            <LinkedInLogoIcon className="size-5" />
                         </Link>
-                        <Link href="https://twitter.com/magicpojska" rel="noopener noreferrer" target="_blank" className="hover:text-primary transition-colors">
-                            <TwitterLogoIcon className="w-5 h-5" />
+                        <Link
+                            href="https://twitter.com/magicpojska"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="transition-colors hover:text-primary"
+                        >
+                            <TwitterLogoIcon className="size-5" />
                         </Link>
-                        <Link href="https://safetpojskic.netlify.app/" rel="noopener noreferrer" target="_blank" className="hover:text-primary transition-colors">
-                            <VercelLogoIcon className="w-5 h-5" />
+                        <Link
+                            href="https://safetpojskic.netlify.app/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="transition-colors hover:text-primary"
+                        >
+                            <VercelLogoIcon className="size-5" />
                         </Link>
                         <ModeToggle />
                     </div>

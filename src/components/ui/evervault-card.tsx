@@ -16,13 +16,13 @@ export const EvervaultCard = ({ text, icon, className }: { text?: string; icon?:
         setRandomString(str);
     }, []);
 
-    function onMouseMove({ currentTarget, clientX, clientY }: any) {
-        const { left, top } = currentTarget.getBoundingClientRect();
-        mouseX.set(clientX - left);
-        mouseY.set(clientY - top);
-
-        const str = generateRandomString(1500);
-        setRandomString(str);
+    function generateRandomString(length: number) {
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+        let result = '';
+        for (let i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * characters.length));
+        }
+        return result;
     }
 
     return (
