@@ -5,24 +5,16 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
 import { toast } from 'sonner';
-import { z } from 'zod';
 
 import { sendContactForm } from '@/app/actions';
 import { Button } from '@/components/ui/button';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-
-export const contactFormSchema = z.object({
-    name: z.string({ required_error: 'Name is requred.' }).trim().min(2, 'Please enter a valid name.').max(50),
-    email: z.string({ required_error: 'Email is requred.' }).email('Must be a valid email address.'),
-    message: z.string().trim().min(20, 'Please enter a message containing at least 20 characters.').max(500)
-});
-
-export type ContactFormSchemaType = z.infer<typeof contactFormSchema>;
+import { contactFormSchema, ContactFormSchemaType } from '@/lib/schemas';
 
 export function ContactMeForm() {
-    const form = useForm<z.infer<typeof contactFormSchema>>({
+    const form = useForm<ContactFormSchemaType>({
         resolver: zodResolver(contactFormSchema),
         defaultValues: {
             name: '',
