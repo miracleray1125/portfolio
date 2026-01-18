@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaJava, FaReact } from 'react-icons/fa';
-import { SiPostgresql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
+import { FaReact, FaPython,FaLaravel } from 'react-icons/fa';
+import { SiPostgresql, SiTailwindcss,SiMongodb, SiTypescript,SiExpress } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
 import { EvervaultCard, Icon } from '@/components/ui/evervault-card';
@@ -44,23 +44,38 @@ const skills = [
         icon: <TbBrandNextjs />
     },
     {
+        title: 'typescript',
+        link: 'https://www.typescriptlang.org/',
+        icon: <SiTypescript />
+    },
+    {
         title: 'Tailwind',
         link: 'https://tailwindcss.com',
         icon: <SiTailwindcss />
     },
     {
-        title: 'Java',
-        link: 'https://www.oracle.com/java/',
-        icon: <FaJava />
+        title: 'Python',
+        link: 'https://www.python.org/',
+        icon: <FaPython />
     },
     {
-        title: 'Spring Boot',
-        link: 'https://spring.io/projects/spring-boot',
-        icon: <SiSpringboot />
+        title: 'MongoDB',
+        link: 'https://www.postgresql.org',
+        icon: <SiMongodb />
     },
     {
         title: 'PostgreSQL',
         link: 'https://www.postgresql.org',
         icon: <SiPostgresql />
+    },
+    {
+        title: 'Laravel',
+        link: 'https://laravel.com',
+        icon: <FaLaravel />
+    },
+    {
+        title: 'Express.js',
+        link: 'https://expressjs.com',
+        icon: <SiExpress />
     }
 ];

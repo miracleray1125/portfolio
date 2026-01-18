@@ -27,57 +27,81 @@ export function ExperienceSection() {
 
 const experience = [
     {
-        title: 'Pickleball.com',
+        title: 'UPlineSoft',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React and Nextjs.</li>
-                <li>
-                    Lead the frontend development team, focusing on creating, improving, and fine-tuning web applications to make them fast and
-                    reliable. My job includes planning our technical approaches, guiding the team, and actively coding and reviewing code.
-                </li>
+                <li>Worked in a distributed Agile/Scrum team with 20 members.</li>
+                <li>Created scripts and microservices using Node.js to be used by core products.</li>
+                <li>Led the development and successful deployment of a scalable, high-traffic e-commerce platform using React and Next.js, efficiently integrating AWS services to seamlessly handle over 50,000 active users monthly.</li>
+                <li>Integrated Stripe API for mobile application payment system.</li>
+                <li>Set up a new architecture and moved 100% of the codebase to clear the technical debt.</li>
+                <li>Developed unit tests using Jest and React testing library for React components and integration tests using Cypress to test the functionality's end-to-end (E2E) flow.</li>
+                <li>Created the front-end elements using Headless UI for a chatbot application.</li>
+                <li>Implemented and deployed several algorithms (classification, clustering, NLP, and computer vision) for different use cases.</li>
             </ul>
         ),
-        badge: 'Software Engineer/Jan 2024 - Present'
+        badge: 'Senior Full-Stack Engineer/Jan 2025 - Present'
     },
     {
-        title: 'Bosnia and Herzegovina Futures Foundation',
+        title: 'WebFX',
         description: (
             <ul className="list-disc">
-                <li>
-                    Actively engaged in personal development, focusing on enhancing my soft skills and public speaking abilities under the guidance of
-                    experienced mentors.
-                </li>
-                <li>
-                    Transitioned into a mentorship role, where I guided high school students in developing their soft skills and provided guidance in
-                    career planning and decision-making.
-                </li>
-                <li>Volunteered in web development team creating fls.ba info website</li>
+                <li>Redesigned existing design system components following the design team guidelines (Next.js).</li>
+                <li>Collaborated with startups on establishing their data infrastructure, discipline, and teams.</li>
+                <li>Integrated Firebase with Python-based serverless functions for data processing, validation, and background tasks.</li>
+                <li>Rebuilt key business pages from scratch using Tailwind CSS for layout and interactions.</li>
+                <li>Built dynamic data filters (dropdowns, checkboxes, inputs, sliders) to analyze and pivot market data charts.</li>
+                <li>Consulted with customers and cross-functional teams on project status, proposals, and system design issues.</li>
+                <li>Analyzed user needs and software requirements to determine the feasibility of design within time and cost constraints.</li>
+                <li>Wrote unit and end-to-end tests using Jest to ensure that the APIs are working as expected.</li>
+                <li>Collaborated with the design team to build new React components and define requirements.</li>
             </ul>
         ),
-        badge: 'Junior -> Senior -> Alumni/Sep 2021 – Present'
+        badge: 'Full Stack Developer/Feb 2024 – Dec 2024'
     },
     {
-        title: 'Atlantbh',
+        title: 'CivicPlus',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React, PostgreSQL and Docker.</li>
-                <li>Conducted code reviews, contributing to maintaining high standards of code quality and team collaboration.</li>
-                <li>Provided mentorship to two IT college students, enhancing their practical software engineering skills.</li>
+                <li>Managed complex application states and facilitated centralized data flow, ensuring consistent and efficient state management across the application, resulting in a 15% decrease in reported bugs.</li>
+                <li>Improved SEO and performance (~8.5%) of the official website and other public pages using Next.js, resulting in a 35% increase in conversion rate which is +30 seconds in average session duration.</li>
+                <li>Collaborated cross-functionally to ensure efficient communication channels between users and support staff, resulting in a 25% reduction in response times for customer inquiries.</li>
+                <li>Developed complex nested components for reuse, improving code maintainability and scalability by 22%.</li>
+                <li>Utilized TypeScript's strong typing system to enhance code reliability and maintainability, reducing runtime errors by 35%.</li>
+                <li>Initiated and led the integration of React Testing Library in the development process, reducing bugs at deployment by 40%.</li>
+                <li>Refactored the website to boost SEO performance, ensuring better discoverability and increased organic traffic.</li>
             </ul>
         ),
-        badge: 'Junior Software Engineer/Jun 2022 - Jan 2024'
+        badge: 'Senior Next.js Developer/Api 2022 - Jan 2024'
     },
     {
-        title: 'Atlantbh (Intenship)',
+        title: 'SevOne',
         description: (
             <ul className="list-disc">
-                <li>Developed full-stack applications with React.js and Spring Boot.</li>
-                <li>
-                    Implemented essential software development practices such as GitHub for version control, Maven for project management, JUnit for
-                    testing, and applied design patterns and MVC architecture.
-                </li>
+                <li>Developed web components for a life science platform using HTML5, CSS3, Bootstrap, JavaScript, and jQuery, contributing to a 20% increase in user engagement.</li>
+                <li>Collaborated with designers and backend developers to implement user interfaces for web applications, leading to the successful deployment of 6 new features.</li>
+                <li>Responsible for creating efficient designs and developing user interaction screens using HTML5, CSS3, FLEXBOX, JavaScript, jQuery, and JSON, resulting in a 15% improvement in user satisfaction.</li>
+                <li>Worked on UI/UX design implementations using Figma and React, ensuring high fidelity to design prototypes and improved user experience.</li>
+                <li>Implemented video popups and playlists in web pages using HTML5 features, enhancing the user experience and increasing video engagement by 18%.</li>
+                <li>Created multiple reusable components and services using Angular 13 built-in and custom directives, reducing development time by 30% on subsequent projects.</li>
             </ul>
         ),
-        badge: 'Full Stack Developer/Feb 2022 - May 2022'
+        badge: 'Junior Frontend Developer/Jun 2020 - May 2022'
+    },
+    {
+        title: 'Athennian',
+        description: (
+            <ul className="list-disc">
+                <li>Contributed to building an education platform using Laravel and JavaScript, featuring user registration, forums, and progress tracking.</li>
+                <li>Fixed UI bugs and optimized CSS for improved cross-browser compatibility and responsiveness.</li>
+                <li>Integrated REST APIs for user authentication and data retrieval.</li>
+                <li>Assisted in creating reusable UI components to streamline development.</li>
+                <li>Enhanced page load times by identifying and fixing performance bottlenecks.</li>
+                <li>Collaborated with backend developers to ensure seamless data flow.</li>
+                <li>Conducted basic testing to verify functionality and identify bugs.</li>
+                <li>Gained experience in JavaScript frameworks and debugging tools.</li>
+            </ul>
+        ),
+        badge: 'Web Developer/Sep 2018 - Mar 2020'
     }
 ];

@@ -28,7 +28,7 @@ export const EvervaultCard = ({ text, icon, className }: { text?: string; icon?:
     return (
         <div className={cn('p-0.5  bg-transparent aspect-square  flex items-center justify-center w-full h-full relative', className)}>
             <div
-                onMouseMove={onMouseMove}
+                // onMouseMove={onMouseMove}
                 className="group/card relative flex size-full items-center justify-center overflow-hidden rounded-3xl bg-transparent"
             >
                 <CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} />

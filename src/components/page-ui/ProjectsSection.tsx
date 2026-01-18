@@ -8,50 +8,35 @@ export function ProjectsSection() {
 
 const products = [
     {
-        title: 'Mern Memories',
-        link: 'https://github.com/spojskic/mern-memories',
-        thumbnail: '/projects/mern-memories.png'
+        title: 'UPlineSoft',
+        link: 'https://UPlineSoft.com',
+        thumbnail: '/projects/UPlineSoft.png'
     },
     {
-        title: 'Next Event',
-        link: 'https://github.com/spojskic/next-dj-events-frontend',
-        thumbnail: '/projects/next-event.png'
+        title: 'WebFX',
+        link: 'https://WebFX.com',
+        thumbnail: '/projects/WebFX.png'
     },
     {
-        title: 'Devspace',
-        link: 'https://github.com/spojskic/next-devspace-blog',
-        thumbnail: '/projects/devspace.png'
-    },
-
-    {
-        title: 'Google Clone',
-        link: 'https://github.com/MagicPojska/gulululgl-search-clone',
-        thumbnail: '/projects/google-clone.png'
-    },
-    {
-        title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.app/',
-        thumbnail: '/projects/old-portfolio.png'
-    },
-    {
-        title: 'Dresscode',
-        link: '',
-        thumbnail: '/projects/dresscode.png'
+        title: 'CivicPlus',
+        link: 'https://CivicPlus.com',
+        thumbnail: '/projects/CivicPlus.png'
     },
 
     {
-        title: 'Portfolio V2',
-        link: 'https://safetpojskic.com',
-        thumbnail: '/projects/portfoliov2.png'
+        title: 'SevOne',
+        link: 'https://SevOne.com',
+        thumbnail: '/projects/SevOne.png'
     },
     {
-        title: 'Music App',
-        link: 'https://github.com/spojskic/my-music-app',
-        thumbnail: '/projects/music-app.png'
+        title: 'Athennian',
+        link: 'https://Athennian.com',
+        thumbnail: '/projects/Athennian.png'
     },
     {
-        title: 'Artemis',
-        link: '',
-        thumbnail: '/projects/artemis.png'
-    }
+        title: 'Global Boost',
+        link: 'https://globalboo.st',
+        thumbnail: '/projects/Global Boost.png'
+    },
+
 ];

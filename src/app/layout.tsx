@@ -11,22 +11,22 @@ import { ThemeProvider } from '@/components/ui/theme-provider';
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://safetpojskic.com'),
-    title: 'Safet Pojskic',
+    metadataBase: new URL('https://raymondjefferson.com'),
+    title: 'Raymond Jefferson',
     description: 'Welcome to my personal portfolio!',
-    applicationName: 'Safet Pojskic',
-    keywords: ['Safet Pojskic', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],
+    applicationName: 'Raymond Jefferson',
+    keywords: ['Raymond Jefferson', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],
     openGraph: {
-        siteName: 'Safet Pojskic',
-        title: 'Safet Pojskic',
+        siteName: 'Raymond Jefferson',
+        title: 'Raymond Jefferson',
         description: 'Welcome to my personal portfolio!',
         type: 'website',
         images: ['/opengraph-image.png']
     },
     twitter: {
         card: 'summary_large_image',
-        site: '@safetpojskic',
-        title: 'Safet Pojskic',
+        site: '@raymondjefferson',
+        title: 'Raymond Jefferson',
         description: 'Welcome to my personal portfolio!',
         images: ['/opengraph-image.png']
     },
