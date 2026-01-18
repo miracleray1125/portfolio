@@ -3,7 +3,6 @@
 import { Resend } from 'resend';
 
 import { contactFormSchema, ContactFormSchemaType } from '@/lib/schemas';
-import { string } from 'zod';
 
 type ActionResponse =
     | { success: true }
@@ -42,7 +41,7 @@ export async function sendContactForm(values: ContactFormSchemaType): Promise<Ac
                 <p>${values.message.replace(/\n/g, '<br>')}</p>
             `
         });
-        console.log("email:", values.email, "name:", values.name, "message:", values.message);
+        console.log('email:', values.email, 'name:', values.name, 'message:', values.message);
         return { success: true };
     } catch (error) {
         console.error('Email sending error:', error);

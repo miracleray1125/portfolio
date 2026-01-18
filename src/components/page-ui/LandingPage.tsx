@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { BackgroundBeams } from '@/components/ui/background-beams';
@@ -48,7 +49,7 @@ export function LandingPage() {
                     <BackgroundBeams />
                 </div>
                 <div className="col-span-12 sm:col-span-4">
-                    <img src="/me.png" alt="Raymond Jefferson" className="mt-10 h-auto w-full" />
+                    <Image src="/me.png" alt="Raymond Jefferson" className="mt-10 h-auto w-full" width={400} height={500} priority />
                 </div>
             </div>
         </div>

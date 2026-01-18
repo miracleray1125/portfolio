@@ -1,5 +1,7 @@
 'use client';
+
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -81,7 +83,7 @@ export const ProductCard = ({
             className="group/product h-120 relative shrink-0"
         >
             <Link href={product.link} className="block group-hover/product:shadow-2xl">
-                <img src={product.thumbnail} className="mt-10 h-auto w-full" alt={product.title} />
+                <Image src={product.thumbnail} className="mt-10 h-auto w-full" alt={product.title} width={400} height={300} />
             </Link>
             <div className="pointer-events-none absolute inset-0 size-full bg-black opacity-0 group-hover/product:opacity-80"></div>
             <h2 className="absolute bottom-4 left-4 text-white opacity-0 group-hover/product:opacity-100">{product.title}</h2>
